@@ -9,7 +9,7 @@ public class Palindrome {
         }
 
         while (left < right) {
-            if (s.charAt(left) != s.charAt(right)) {
+            if (Character.toLowerCase(s.charAt(left)) != Character.toLowerCase(s.charAt(right))) {
                 return false;
             }
             left++;

@@ -1,7 +1,7 @@
 import java.util.Map;
 import java.util.Set;
 
-public class Wedding {
+public class WeddingComplex {
     public static Map<String, String> createCouple(Set<String> first, Set<String> second) {
         java.util.List<String> firstList = new java.util.ArrayList<>(first);
         java.util.List<String> secondList = new java.util.ArrayList<>(second);
